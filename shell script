@@ -1,6 +1,5 @@
 #!/bin/bash
 for file in "$1"/*; do
-    # Check if the item is a file
     if [ -f "$file" ]; then
         echo "File: $file"
         
